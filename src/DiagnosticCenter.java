@@ -35,12 +35,12 @@ public class DiagnosticCenter {
                     String message = names.get(i) + " has not performed a test.\n";
                     fout.write(message.getBytes());
                 }
-                if(i!=names.size()-1){
+                if(i!=names.size()-1) {
                     String horizontalLines = "----------\n";
                     fout.write(horizontalLines.getBytes());
                 }
-                fout.close();
             }
+            fout.close();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
