@@ -16,4 +16,19 @@ public class DiagnosticTest extends Test{
     public boolean isPositive() {
         return positive;
     }
+
+    @Override
+    public String getDate() {
+        return super.getDate();
+    }
+
+    @Override
+    public String getSurname() {
+        return super.getSurname();
+    }
+
+    @Override
+    public String printDetails() {
+        return "";
+    }
 }

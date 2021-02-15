@@ -32,18 +32,23 @@ public class DiagnosticCenter {
                     }
                 }
                 if(!found){
-                    String message = names.get(i) + " has not performed a test.";
+                    String message = names.get(i) + " has not performed a test.\n";
                     fout.write(message.getBytes());
                 }
                 if(i!=names.size()-1){
                     String horizontalLines = "----------\n";
                     fout.write(horizontalLines.getBytes());
                 }
+                fout.close();
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public ArrayList<Test> getTests(){
+        return tests;
     }
 }

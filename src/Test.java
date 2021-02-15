@@ -15,4 +15,13 @@ public class Test {
     public String getSurname() {
         return surname;
     }
+
+    public String printDetails(){
+
+        return "";
+    }
+
+    public boolean isPositive(){
+        return false;
+    }
 }

@@ -10,4 +10,13 @@ public class MolecularTest extends DiagnosticTest{
     public double getSf() {
         return sf;
     }
+
+    @Override
+    public String printDetails() {
+
+        String output = "Molecular Test, date: " + super.getDate() + ", Type: " +
+                super.getSample() + ", Result: " + super.isPositive() + ", Accuracy: " + sf*100 + "%";
+
+        return output;
+    }
 }

@@ -44,7 +44,8 @@ public class Main {
 		//Do not change the following code
 		testArray.add("Ioannou");
 		diagnosticCenter.checkPrintTests(testArray);
-		
+
+		GUI gui = new GUI(diagnosticCenter.getTests());
 	}
 
 }
