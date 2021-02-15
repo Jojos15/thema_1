@@ -8,4 +8,12 @@ public class DiagnosticTest extends Test{
         this.sample = sample;
         this.positive = positive;
     }
+
+    public String getSample() {
+        return sample;
+    }
+
+    public boolean isPositive() {
+        return positive;
+    }
 }

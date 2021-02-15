@@ -6,4 +6,8 @@ public class MolecularTest extends DiagnosticTest{
         super(date, surname, sample, positive);
         this.sf = sf;
     }
+
+    public double getSf() {
+        return sf;
+    }
 }

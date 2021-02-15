@@ -7,4 +7,12 @@ public class Test {
         this.date = date;
         this.surname = surname;
     }
+
+    public String getDate() {
+        return date;
+    }
+
+    public String getSurname() {
+        return surname;
+    }
 }

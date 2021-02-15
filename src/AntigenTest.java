@@ -6,4 +6,8 @@ public class AntigenTest extends DiagnosticTest{
         super(date, surname, sample, positive);
         this.resultTime = resultTime;
     }
+
+    public int getResultTime() {
+        return resultTime;
+    }
 }
